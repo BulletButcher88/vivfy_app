@@ -1,0 +1,31 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  background: #d3d3d3;
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 60%;
+}
+
+.noleads {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #dfdcdc;
+  text-align: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .dashboard {
+    display: block;
+  }
+}

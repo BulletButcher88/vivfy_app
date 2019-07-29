@@ -1,0 +1,45 @@
+.popup {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0,0,0, 0.5);  
+}  
+
+.photo-enlarge-frame {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.close-btn {
+  opacity: 0.9;
+  border: none;
+  color: #fafafa;
+  background: #ff7e7e;
+  padding: 8px 8px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 4rem;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.close-btn:hover {
+  color: #858282;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .photo-enlarge-frame  {  
+    width: 100%;  
+  }  
+}

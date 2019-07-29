@@ -1,0 +1,61 @@
+.job-enquiry-edit {
+  border-top: 1px solid #e4e3e3;
+  margin-top: 15px;
+}
+
+.job-enquiry-edit label {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-enquiry-edit input {
+  height: 2rem;
+  background: #f7f7f7;
+}
+
+/* css for edit customer basic info */
+.edit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background: #ff7e7e;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.job-enquiry-customer-edit {
+  width: 100%;
+  display: flex;
+}
+
+.name-suburb-edit {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.email-phone-date-edit {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+  .job-enquiry-customer-edit {
+    flex-direction: column;
+  }
+
+  .name-suburb-edit,
+  .email-phone-date-edit {
+    width: 100%;
+  }
+}

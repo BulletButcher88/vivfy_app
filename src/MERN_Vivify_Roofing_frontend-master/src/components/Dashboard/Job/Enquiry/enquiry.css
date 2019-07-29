@@ -1,0 +1,30 @@
+.job-enquiry {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.margin-top-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.enquiry-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ff7e7e;
+  border-bottom: 1px solid #ff7e7e;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .job-enquiry {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+}

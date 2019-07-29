@@ -1,0 +1,36 @@
+{
+  "name": "mern_vivify_roofing_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nodemon --exec 'mocha --coverage'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jliclaire/MERN_Vivify_Roofing_backend.git"
+  },
+  "author": "Andy Sims, Mark Butcher, Jing Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jliclaire/MERN_Vivify_Roofing_backend/issues"
+  },
+  "homepage": "https://github.com/jliclaire/MERN_Vivify_Roofing_backend#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "cloudinary": "^1.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.3",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  }
+}

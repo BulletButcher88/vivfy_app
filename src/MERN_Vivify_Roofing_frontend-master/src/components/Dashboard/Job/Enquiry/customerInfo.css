@@ -1,0 +1,43 @@
+.job-enquiry-customer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-suburb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-phone-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.email-phone-date > a > h5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+
+.job-enquiry-customer h5 {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .job-enquiry-customer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .email-phone-date {
+    align-items: flex-start;
+  }
+}

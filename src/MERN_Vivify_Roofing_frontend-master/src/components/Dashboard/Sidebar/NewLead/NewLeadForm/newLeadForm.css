@@ -1,0 +1,94 @@
+.new-lead-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.new-lead-popupinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90%;
+  width: 80%;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+.new-lead-popupinner form {
+  width: 90%;
+}
+.new-lead-popupinner .checkbox-close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+.new-lead-popupinner .far {
+  cursor: pointer;
+  color: #ff7e7e;
+  font-size: 1.2rem;
+
+}
+.new-lead-popupinner .far:hover {
+  color: #858282;
+}
+.new-lead-popupinner h1 {
+  text-align: center;
+  color: #ff7e7e;
+  border-bottom: 1px solid #e4e3e3;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+
+.new-lead-popupinner button {
+  float: right;
+  height: 2.5rem;
+  width: 100px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.new-lead-popupinner button:hover {
+  color: #fff;
+}
+
+#new-lead-customer-comment {
+  height: 2rem;
+}
+
+.validation-prompt {
+  margin-bottom: 20;
+  font-size: 13;
+  color: red;
+}
+
+@media only screen and (max-width: 767px) {
+  .new-lead-popupinner {
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .new-lead-popupinner .checkbox-close-icon {
+    margin-top: 80px;
+  }
+
+  .job-enquiry-customer-edit {
+    margin: 80px;
+
+  }
+
+}
+

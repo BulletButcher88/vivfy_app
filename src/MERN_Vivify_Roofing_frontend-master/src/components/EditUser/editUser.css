@@ -1,0 +1,26 @@
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.explanation {
+  text-align: center;
+  margin-top: 15px;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flash {
+  padding: 20px;
+  color: #e04040;
+  border: 1px solid #d8cdcd;
+  border-radius: 4%;
+  margin-top: 15px;
+}

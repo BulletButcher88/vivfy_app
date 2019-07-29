@@ -1,0 +1,84 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.inner-form-login {
+  width: 60%;
+  padding: 30px;
+}
+
+.inner-form-login input {
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.login-logo {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12vw;
+  color: #ef8582;
+}
+
+@media only screen and (max-width: 767px) {
+  .login-logo {
+    margin-top: 20vh;
+    font-size: 4em;
+  }
+
+  .inner-form-login {
+    width: 70%;
+    padding: 10px;;
+  }
+}
+
+.btn-login {
+  padding: 10px;
+  margin: auto;
+  width: 85px;
+  border-radius: 10%;
+  background: #ff7e7e;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-login:hover > p {
+  color: #fff;
+}
+
+.login-error {
+  text-align: center;
+}
+
+.login-error > h3 {
+  color: red;
+}
+
+.bottom-buttons-login {
+  display: flex;
+  justify-content: space-between
+}
+
+.minor-button {
+  padding: 10px;
+  margin: auto;
+  width: 85px;
+  border-radius: 10%;
+  background: #fff;
+  border: 1px solid #ff7e7e;
+  cursor: pointer;
+  text-align: center;
+}
+
+.minor-button:hover {
+  background: #ff7e7e;
+}
+
+.minor-button:hover p {
+  color: white;
+}

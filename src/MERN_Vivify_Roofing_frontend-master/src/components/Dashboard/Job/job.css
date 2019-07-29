@@ -1,0 +1,33 @@
+.job {
+  width: 50%;
+  height: 100vh;
+  background: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.job-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* css for all enquiry span  */
+.comments {
+  font-weight: 700;
+}
+
+.p-font {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .job {
+    width: 100%;
+    height: auto;
+  }
+
+  .assign-lead {
+    margin-right: 15px;
+  }
+}

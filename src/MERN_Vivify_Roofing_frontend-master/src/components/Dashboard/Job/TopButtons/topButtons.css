@@ -1,0 +1,58 @@
+.job-top-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-buttons-right {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid grey;
+}
+
+.top-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.edit-lead {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.options {
+  margin-left: 15px;
+  padding: 5px;
+  font-size: 1em
+}
+
+.mob-only {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .mob-only {
+    display: block;
+  }
+
+  .job-top-buttons {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .top-options {
+    margin-bottom: 10px;
+  }
+
+  .top-buttons-right {
+    border: 0;
+  }
+}

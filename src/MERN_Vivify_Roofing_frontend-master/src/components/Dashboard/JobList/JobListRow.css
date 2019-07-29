@@ -1,0 +1,85 @@
+.jobList-container {
+  background: #d3d3d3;
+  border-left: solid 1px #d3d3d3;
+  border-right: solid 1px #d3d3d3;
+  width: 30%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.assigned-badge {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  background: #e3e3e3;
+  padding: 4px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .jobList-container {
+    width: 100%;
+    height: 85vh;
+  }
+}
+
+.jobList-row {
+  display: flex;
+  justify-content: space-between;
+  height: 95px;
+  margin-bottom: 5px;
+  background: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+  border-left: 3px solid #fa4949;
+}
+
+.jobList-row:hover {
+  background: #e0ffff;
+  color: #000;
+}
+
+.jobList-list-left {
+  padding-left: 10px;
+}
+
+.jobList-list-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  justify-content: space-evenly;
+}
+
+.jobList-row h4,
+.jobList-row h5 {
+  color: #363636;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.jobList-row p {
+  color: #818181;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+
+.blueButton{
+  background-color: #e0ffff
+}
+
+.whiteButton{
+  background-color: white;
+  color: black;
+}
+
+
+@media (max-width: 1010px) and (min-width: 767px) {
+  .jobList-row p {
+  font-size: .7rem;
+  }
+}

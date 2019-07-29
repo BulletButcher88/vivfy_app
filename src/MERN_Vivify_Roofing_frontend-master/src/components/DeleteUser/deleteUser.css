@@ -1,0 +1,66 @@
+.delete-user-dashboard {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.delete-user-dashboard h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid #ff7e7e; */
+}
+
+.delete-user-dashboard h4 {
+  color: #ff7e7e;
+}
+
+.salesUser-container {
+  border-top: 1px solid #ff7e7e;
+  border-bottom: 1px solid #ff7e7e;
+  margin-bottom: 20px;
+}
+
+.user-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-col {
+  width: 15%;
+}
+
+.col-width {
+  width: 40%;
+}
+
+.fa-trash-alt {
+  color: #ff7e7e;
+  cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+  color: #111;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.back-to-dashboard-btn {
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .back-to-dashboard-btn {
+    width: 100%;
+  }
+
+  .user-col {
+    width: 40%;
+  }
+}
