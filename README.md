@@ -33,6 +33,10 @@ the customer and their particular needs in a centralised hub was meant to
 improve this situation and improve communication between the trades and the
 sales team more generally.
 
+
+<img src="./docs/dashboard.gif">
+
+
 ### Functionality
 
 Our functionality follows from the above two business problems. In the first
@@ -52,7 +56,6 @@ The **Sale User** contacts the **Lead** and is required to submit a **Followups*
 the HTML forms which are attached to the **Lead** as a record of securing the job. The **Sales Users** can also provide more unforseen details about the job, photos and sets a quote of which they have sold it. Once this occurs the job is marked as "sold."
 
 
-<img src="./docs/dashboard.gif">
 
 ### Technology Stack
 
